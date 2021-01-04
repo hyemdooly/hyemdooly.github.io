@@ -37,7 +37,8 @@ struct CircleImage_Previews: PreviewProvider {
 
 clipShape로 원 모양으로 뻥 뚫린 Mask 비스무리한 것으로 덮어 씌우고, overlay로 테두리, shadow로 그림자를 표현한다. SwiftUI Tutorials의 설명 이미지는 아래에.
 
-![imageview-clip](https://github.com/hyemdooly/hyemdooly.github.io/blob/master/assets/img/iOS/ImageView-Clip.png)
+![imageview-clip]{{"assets/img/iOS/ImageView-Clip.png"| relative_url}}
+
 
 오른쪽 그림을 참고하면 된다. 안드로이드에서는 복잡하게 구현해야하는 부분이었는데 iOS에서는 단 3줄이면 가능하다는게 새로웠다.
 
@@ -118,6 +119,6 @@ LandmarksApp.swift는 기본과 달라진 코드가 없으므로 생략한다.
 
 ## 결과물
 
-![Result](https://github.com/hyemdooly/hyemdooly.github.io/blob/master/assets/img/iOS/Result.png)
+![Result]({{"assets/img/iOS/Result.png"| relative_url}})
 
 Preview로 다음과 같은 결과를 확인할 수 있다.
