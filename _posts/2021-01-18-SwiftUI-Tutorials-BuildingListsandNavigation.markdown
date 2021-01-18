@@ -363,4 +363,6 @@ Solarized dark             |  Solarized Ocean
 ![UI-1]({{"assets/img/iOS/BuildingListsandNavigation/UI-1.jpg"| relative_url}}) | ![UI-2]({{"assets/img/iOS/BuildingListsandNavigation/UI-2.jpg"| relative_url}})
 ```
 
+<img src = ""assets/img/iOS/BuildingListsandNavigation/UI-1.jpg"" width ="200" /> <img src = "assets/img/iOS/BuildingListsandNavigation/UI-2.jpg" width ="200" />
+
 Preview로 다음과 같은 결과를 확인할 수 있다.
