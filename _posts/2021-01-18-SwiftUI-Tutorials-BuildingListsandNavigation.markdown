@@ -4,7 +4,7 @@ title:  "Building Lists and Navigation"
 date:   2020-01-18 17:40:00 +0900
 categories: iOS
 ---
-두 번째 튜토리얼. Android의 Recycler View가 생각나는 파트였다.
+두 번째 튜토리얼. 안드로이드의 Recycler View가 생각나는 파트였다.
 
 Swift 문법을 공부하지 않고 바로 튜토리얼을 봐서 그런지 이해하기 어려운 문법이 존재했다.
 
@@ -359,8 +359,10 @@ func load<T: Decodable>(_ filename: String) -> T {
 
 ## 결과물
 
-![UI-1]({{"assets/img/iOS/BuildingListsandNavigation/UI-1.jpg"| relative_url}})
-
-![UI-2]({{"assets/img/iOS/BuildingListsandNavigation/UI-2.jpg"| relative_url}})
+```
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![UI-1]({{"assets/img/iOS/BuildingListsandNavigation/UI-1.jpg"| relative_url}}) | ![UI-2]({{"assets/img/iOS/BuildingListsandNavigation/UI-2.jpg"| relative_url}})
+```
 
 Preview로 다음과 같은 결과를 확인할 수 있다.
