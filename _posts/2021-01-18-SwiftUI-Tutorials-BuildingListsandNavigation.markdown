@@ -193,12 +193,14 @@ landmark.observe(\.location.latitude) { // 앞 부분 타입 생략 가능, 원�
 
 앞 부분 타입은 생략이 가능하기 때문에, `id`에서도 `\.self`로 작성했던 것이다. 풀로 쓴다면 `\String.self`가 된다.
 
-"엥, 그러면 그냥 Type에 대한 KeyPath가 나오는 것이 아닌가요?" 라고 생각할 수 있는데, 사실 이 문구의 정확한 뜻은 String형 객체의 KeyPath이다. 즉, 배열로 들어갔던 ["iPhone SE", "iPhone XS Max"]에서 "iPhone SE"이라는 String 객체에 대한 KeyPath, "iPhone XS Max"이라는 String 객체에 대한 KeyPath를 의미하는 것이다.
+> "엥, 그러면 그냥 Type에 대한 KeyPath가 나오는 것이 아닌가요?"
+
+사실 이 문구의 정확한 뜻은 String형 객체의 KeyPath이다. 즉, 배열로 들어갔던 ["iPhone SE", "iPhone XS Max"]에서 "iPhone SE"이라는 String 객체에 대한 KeyPath, "iPhone XS Max"이라는 String 객체에 대한 KeyPath를 의미하는 것이다.
 
 self에 대하여 더 정리하자면,
 
-타입.self → Type 반환
-변수.self → 변수 자기 자신 반환
+> * 타입.self → Type 반환
+> * 변수.self → 변수 자기 자신 반환
 
 위와 같이 반환이 되는데, 이 경우에는 타입.self 이다. Type이 반환이 되고, `\`가 붙었으므로 그 Type의 객체에 대한 KeyPath가 반환된다.
 
@@ -211,10 +213,6 @@ name.self = "송혜민" // 2
 ```
 
 1과 2는 같은 동작을 하는 코드이다.
-
-### [LandmarkDetail.swift]
-
-
 
 ### [LandmarkDetail.swift]
 
