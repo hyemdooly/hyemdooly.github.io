@@ -165,7 +165,7 @@ struct LandmarkList_Previews: PreviewProvider {
 
 먼저 `id`는 Item 하나하나에 대한 고윳값이다. 만약 `id`를 명시하지 않는다면 Item 하나가 바뀌었을 때, SwiftUI 입장에서는 어떤 Item이 바뀌었는지 알 수 없기 때문에 일부만 바뀌지 않고 UI 전체가 렌더링되어버린다. 이것이 ForEach에 `id` 를 넣어주는 이유이다.
 
-여기서 ForEach의 `id` 는 **KeyPath**로 작동한다. `\`는 **KeyPath**를 가져오는 문법이다. 예시 코드를 통해 이해해보자.
+여기서 ForEach의 `id` 는 **KeyPath**로 작동한다. **KeyPath**란, 요약하자면 '그 프로퍼티가 있는 경로'이다. `\`는 **KeyPath**를 가져오는 문법이다. 예시 코드를 통해 이해해보자.
 
 Swift에는 "특정 프로퍼티의 값이 변경되면 이벤트를 수신하라(KVO : Key-Value Observing)"는 개념이 존재한다.
 
