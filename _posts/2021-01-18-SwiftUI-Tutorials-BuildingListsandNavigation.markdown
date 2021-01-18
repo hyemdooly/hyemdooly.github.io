@@ -199,8 +199,8 @@ landmark.observe(\.location.latitude) { // 앞 부분 타입 생략 가능, 원�
 
 self에 대하여 더 정리하자면,
 
-타입.self → Type 반환
-변수.self → 변수 자기 자신 반환
+> * 타입.self → Type 반환
+> * 변수.self → 변수 자기 자신 반환
 
 위와 같이 반환이 되는데, 이 경우에는 타입.self 이다. Type이 반환이 되고, `\`가 붙었으므로 그 Type의 객체에 대한 KeyPath가 반환된다.
 
