@@ -37,7 +37,7 @@ struct CircleImage_Previews: PreviewProvider {
 
 clipShape로 원 모양으로 뻥 뚫린 Mask 비스무리한 것으로 덮어 씌우고, overlay로 테두리, shadow로 그림자를 표현한다. SwiftUI Tutorials의 설명 이미지는 아래에.
 
-![imageview-clip]({{"assets/img/iOS/ImageView-Clip.png"| relative_url}})
+![imageview-clip]({{"assets/img/iOS/CreatingandCombiningViews/ImageView-Clip.png"| relative_url}})
 
 
 오른쪽 그림을 참고하면 된다. 안드로이드에서는 복잡하게 구현해야하는 부분이었는데 iOS에서는 단 3줄이면 가능하다는게 새로웠다.
@@ -76,9 +76,9 @@ struct MapView_Previews: PreviewProvider {
 
 지금 작성하는 코드를 기준으로 설명하자면, Map이라는 지도 컴포넌트에서 region값은 유저가 확대하거나 축소할 때 바뀌어야한다. 값이 유저의 input값에 따라서 바뀌어야 하고 불변해서는 안되기 때문에 `@State`를 사용한다.
 
-#### 그럼 왜 $연산자가 붙는가?
+#### 그럼 왜 $가 붙는가?
 
-`@State`는 내부적으로 `값`과 `값을 변경하는 친구`로 구현되어 있다. `$`연산자를 사용하지 않는다면 region`값`만 사용하기 때문에 `값을 변경하는 친구`를 함께 전달하기 위해서 `$`연산자를 사용한다.
+`@State`는 내부적으로 `값`과 `값을 변경하는 친구`로 구현되어 있다. `$`를 사용하지 않는다면 region`값`만 사용하기 때문에 `값을 변경하는 친구`를 함께 전달하기 위해서 `$`를 사용한다.
 
 ### [ContentView.swift]
 
@@ -133,6 +133,6 @@ LandmarksApp.swift는 기본과 달라진 코드가 없으므로 생략한다.
 
 ## 결과물
 
-![Result]({{"assets/img/iOS/Result.png"| relative_url}})
+![Result]({{"assets/img/iOS/CreatingandCombiningViews/Result.png"| relative_url}})
 
 Preview로 다음과 같은 결과를 확인할 수 있다.
