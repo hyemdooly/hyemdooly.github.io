@@ -359,6 +359,6 @@ func load<T: Decodable>(_ filename: String) -> T {
 
 ![UI-1]({{"assets/img/iOS/BuildingListsandNavigation/UI-1.jpg"| relative_url}}){: width="50%" height="50%"}
 
-![UI-2]({{"assets/img/iOS/BuildingListsandNavigation/UI-2.jpg"| relative_url}})
+![UI-2]({{"assets/img/iOS/BuildingListsandNavigation/UI-2.jpg"| relative_url}}){: width="50%" height="50%"}
 
 Preview로 다음과 같은 결과를 확인할 수 있다.
