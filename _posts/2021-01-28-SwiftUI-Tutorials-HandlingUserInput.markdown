@@ -128,7 +128,7 @@ VStack {
 
 `modelData.landmarks.firstIndex` 뒤에 붙은 `!`은 nil을 반환하지 않는다는 것을 의미한다. nill과 null은 같은 의미고, `!`은 Kotlin의 `!!`과 같은 역할을 한다고 볼 수 있다.
 
-`$`는 보통 인자를 의미한다. 예를 들어 `$0`이라고 하면 첫 번째 인자, `$1`이라고 하면 두 번째 인자를 의미한다. 코드를 축약하는데 유용하다.
+`$숫자`는 보통 인자를 의미한다. 예를 들어 `$0`이라고 하면 첫 번째 인자, `$1`이라고 하면 두 번째 인자를 의미한다. 코드를 축약하는데 유용하다.
 
 `@EnvironmentObject`이 무엇인지는 맨 뒤에서 다른 코드와 함께 설명한다.
 
@@ -382,13 +382,13 @@ Favorite 여부를 state로 받아오기 때문에 `@Binding` 어노테이션을
 
 ## 결과물
 
-![UI-1](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-1.jpg"| relative_url}}){: width="50%" height="50%"}
+![UI-1](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-1.png"| relative_url}}){: width="50%" height="50%"}
 
-![UI-2](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-2.jpg"| relative_url}}){: width="50%" height="50%"}
+![UI-2](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-2.png"| relative_url}}){: width="50%" height="50%"}
 
-![UI-3](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-1.jpg"| relative_url}}){: width="50%" height="50%"}
+![UI-3](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-3.png"| relative_url}}){: width="50%" height="50%"}
 
-![UI-4](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-2.jpg"| relative_url}}){: width="50%" height="50%"}
+![UI-4](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts/{{"assets/img/iOS/HandlingUserInput/UI-4.png"| relative_url}}){: width="50%" height="50%"}
 
 Preview로 다음과 같은 결과를 확인할 수 있다.
 
