@@ -382,13 +382,13 @@ Favorite 여부를 state로 받아오기 때문에 `@Binding` 어노테이션을
 
 ## 결과물
 
-![UI-1](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts{{"assets/img/iOS/HandlingUserInput/UI-1.png"| relative_url}}){: width="50%" height="50%"}
+![UI-1]({{"assets/img/iOS/HandlingUserInput/UI-1.png"| relative_url}}){: width="50%" height="50%"}
 
-![UI-2](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts{{"assets/img/iOS/HandlingUserInput/UI-2.png"| relative_url}}){: width="50%" height="50%"}
+![UI-2]({{"assets/img/iOS/HandlingUserInput/UI-2.png"| relative_url}}){: width="50%" height="50%"}
 
-![UI-3](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts{{"assets/img/iOS/HandlingUserInput/UI-3.png"| relative_url}}){: width="50%" height="50%"}
+![UI-3]({{"assets/img/iOS/HandlingUserInput/UI-3.png"| relative_url}}){: width="50%" height="50%"}
 
-![UI-4](/Users/songhyemin/Documents/GitHub/hyemdooly.github.io/_posts{{"assets/img/iOS/HandlingUserInput/UI-4.png"| relative_url}}){: width="50%" height="50%"}
+![UI-4]({{"assets/img/iOS/HandlingUserInput/UI-4.png"| relative_url}}){: width="50%" height="50%"}
 
 Preview로 다음과 같은 결과를 확인할 수 있다.
 
